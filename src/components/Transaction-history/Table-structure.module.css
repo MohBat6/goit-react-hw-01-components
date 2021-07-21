@@ -1,0 +1,3 @@
+.rou:nth-child(2n+2) {
+    background-color: rgb(196, 230, 225);
+}

@@ -1,0 +1,41 @@
+.section {
+    width: 480px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    overflow: hidden;
+}
+
+.title {
+    text-align: center;
+}
+
+.list {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    border-top: 1px solid gray;
+}
+
+.item {
+    list-style: none;
+    width: calc(100% /5);
+    height: 80px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.item+.item {
+    border-left: 2px solid gray;
+}
+
+.label {
+    display: block;
+}
+
+.percentage {
+    display: block;
+}
